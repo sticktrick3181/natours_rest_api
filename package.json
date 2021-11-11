@@ -1,0 +1,41 @@
+{
+  "name": "js_natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "ndb server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ishaan kalia",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "error-handler-module": "^1.0.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13",
+    "slugify": "^1.6.1",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "airbnb": "0.0.2",
+    "eslint": "^8.0.1",
+    "eslint-config": "^0.3.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "prettier": "^2.4.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
